@@ -21,5 +21,11 @@ This project automates downloading YouTube audio and video directly on iOS using
 1. Open **a-Shell** and run:  
    ```sh
    cd ~/Documents
+   ```
+   ```
    curl -O https://raw.githubusercontent.com/Hanako21/Download-YT/main/ytdl.sh
+   ```
+   ```
    chmod +x ytdl.sh
+   ```
+
