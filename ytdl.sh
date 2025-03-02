@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#Ensure vlcPipe folder exists
+mkdir -p ~/Documents/vlcPipe
+
 if [ "$2" = "video" ]; then
     yt-dlp -f bestvideo+bestaudio --merge-output-format webm -o ~/Documents/vlcPipe/"%(title)s.webm" "$1"
 else
