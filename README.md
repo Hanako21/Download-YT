@@ -28,4 +28,32 @@ This project automates downloading YouTube audio and video directly on iOS using
    ```
    chmod +x ytdl.sh
    ```
+   
+### **3️⃣ Import the Shortcut**  
+1. Download the Shortcut file:  
+   **[Download-YT](https://github.com/Hanako21/Download-YT/raw/main/Download-YT.shortcut)**  
+2. Open the `.shortcut` file on your iPhone.  
+3. When prompted, tap **"Add Shortcut"** to import it into the Shortcuts app.  
+4. Grant **File Access Permissions** when prompted.  
+ 5. **Add the Shortcut to the Share Sheet**:  
+   - Open the Shortcuts app.  
+   - Tap the **three dots (•••)** on **Download-YT** to edit it.  
+   - Tap **"Settings" (top right corner)**.  
+   - Tap **"Add to Share Sheet"** and enable it.  
+   - Tap **"Done"** to save.  
 
+---
+
+## **🚀 How to Use**  
+
+1. Open a video you want to download.  
+2. Tap the **Apple Share Sheet** (**not a website’s custom share button**) and select **Download-YT**.  
+3. Choose **Audio (Opus) or Video (WebM)** when prompted.  
+4. The Shortcut will:  
+   - **Download the file** using `yt-dlp` in a-Shell.  
+   - **Move the file to VLC** automatically (if installed).  
+   - **If VLC is not installed**, the file will stay in `a-Shell/Documents/vlcPipe`.  
+
+---
+
+Enjoy your downloads! 🚀  
