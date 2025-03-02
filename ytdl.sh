@@ -10,4 +10,4 @@ else
 fi
 
 # Automatically trigger the Shortcut to move the file
-open "shortcuts://run-shortcut?name=Download-YouTube&input=vlcPipe"
+open "shortcuts://run-shortcut?name=Download-YT&input=vlcPipe"
