@@ -2,11 +2,11 @@
 # **Download-YT (Downloader for iOS)**  
 
 This project automates downloading YouTube audio and video directly on iOS using **a-Shell** and **Shortcuts**. It supports:  
-- **Audio downloads** (`.opus`)  
+- **Audio downloads** (`.opus for regular audio, .mp3 for Spotify`)  
 - **Video downloads** (`.webm`)  
-- **Automatic file transfer to VLC**  
+- **Automatic file transfer to VLC and Spotify**  
 
-⚠️ **VLC is optional but highly recommended for optimal use.** If VLC is not installed, the Shortcut may show errors, but the video/audio will still download and remain in **a-Shell's Documents folder** instead of being moved.  
+⚠️ **VLC is optional but highly recommended for optimal use.** If VLC is not installed, the Shortcut may show errors, but the video/audio will still download and remain in **a-Shell's Documents folder** instead of being moved. Note that **downloading videos or plain audio requires VLC**, but **Spotify downloads work without VLC**.
 
 ---
 
@@ -48,10 +48,10 @@ This project automates downloading YouTube audio and video directly on iOS using
 
 1. Open a video you want to download.  
 2. Tap the **Apple Share Sheet** (**not a website’s custom share button**) and select **Download-YT**.  
-3. Choose **Audio (Opus) or Video (WebM)** when prompted.  
+3. Choose **Audio (Opus or MP3), Video (WebM), or Spotify** when prompted.  
 4. The Shortcut will:  
    - **Download the file** using `yt-dlp` in a-Shell.  
-   - **Move the file to VLC** automatically (if installed).  
+   - **Move the file to VLC or Spotify** automatically (if installed).  
    - **If VLC is not installed**, the file will stay in `a-Shell/Documents/vlcPipe`.  
 
 ---
